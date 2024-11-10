@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 120%
+);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+z-index: 1;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #0b1b5e 0%, #03163628 100%);
+    box-shadow: 0 16px 14px 0 #00132d;
+    padding: 18px 24px;
+    max-width: 345px;
+    position: relative; /* Needed for positioning the pop-up */
+    overflow: hidden; /* Hide anything overflowing, like the pop-up */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scale effect */
+}
+
+.pop-up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    opacity: 0;
+    visibility: hidden; /* Initially hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .contain:hover .pop-up {
+    opacity: 1;
+    visibility: visible;
+  }
+.contain:hover {
+    transform: scale(1.05); /* Slightly enlarge the container */
+  }
+
+.image {
+    margin-bottom: 25px;
+}
+
+.tit {
+    font-size: 25px;
+    font-weight: 700;
+}
+.des {
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.skis {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.ski {
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 550;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+}

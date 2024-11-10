@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Music App",
+      "imageSrc": "projects/spotify.png",
+      "description": "This is a music App built using Spotify API",
+      "skills": ["React", "HTML", "CSS", "JavaScript"],
+      "source": "https://github.com/itsmecaliber/Spotify-2.0-clone"
+    },
+    {
+      "title": "Todo App",
+      "imageSrc": "projects/todo.png",
+      "description": "Todo App for practicing React concepts",
+      "skills": ["React", "HTML", "CSS", "JavaScript"],
+      "source": "https://github.com/itsmecaliber/To-Do-List"
+    },
+    {
+      "title": "Amazon web page clone",
+      "imageSrc": "projects/amazon.png",
+      "description": "A basic Amazon clone built to practice HTML and CSS skills.",
+      "skills": ["HTML", "CSS"],
+      "source": "https://github.com/itsmecaliber/amazon-clone"
+    }
+  ]

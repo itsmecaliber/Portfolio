@@ -1,0 +1,11 @@
+[
+    {
+      "role": "React Developer",
+      "organisation": "Celebal Technologies",
+      "startDate": "May, 2024",
+      "endDate": "July 2024",
+      "experiences": ["Worked on Music App", "Implemented Spotify API"],
+      "imageSrc": "history/celebal.png"
+    }
+    
+  ]
