@@ -2,9 +2,6 @@
 
 .container {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 49px;
     z-index: 1;
     margin-left: 10%;
@@ -13,6 +10,7 @@
 }
 
 .title {
+    position: relative;
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
@@ -29,6 +27,7 @@
 }
 
 .content {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -38,6 +37,7 @@
 }
 
 .skills {
+    margin-top: 10px;
     width: 45%;
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +73,7 @@
 }
 
 .history {
+    margin-top: 18px;
     width: 45%;
     display: flex;
     flex-direction: column;
