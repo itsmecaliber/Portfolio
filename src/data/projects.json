@@ -1,5 +1,12 @@
 [
     {
+      "title": "Top Elites",
+      "imageSrc": "projects/topElites.png",
+      "description": "A platform for gamers to play tournaments and for organizers to host their tournaments.",
+      "skills": ["JAVA","JSP","MYSQL", "SERVLET", "HTML", "CSS", "JAVASCRIPT","BOOTSTRAP"],
+      "source": "https://github.com/itsmecaliber/Top-Elites"
+    },
+    {
       "title": "Music App",
       "imageSrc": "projects/spotify.png",
       "description": "This is a music App built using Spotify API",
@@ -12,12 +19,5 @@
       "description": "Todo App for practicing React concepts",
       "skills": ["React", "HTML", "CSS", "JavaScript"],
       "source": "https://github.com/itsmecaliber/To-Do-List"
-    },
-    {
-      "title": "Amazon web page clone",
-      "imageSrc": "projects/amazon.png",
-      "description": "A basic Amazon clone built to practice HTML and CSS skills.",
-      "skills": ["HTML", "CSS"],
-      "source": "https://github.com/itsmecaliber/amazon-clone"
     }
   ]
