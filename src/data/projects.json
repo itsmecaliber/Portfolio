@@ -9,7 +9,7 @@
     {
       "title": "Top Elites",
       "imageSrc": "projects/topElites.png",
-      "description": "A Tournament platform for gamers and organizers .",
+      "description": "A Tournament platform for gamers and organizers.",
       "skills": ["JAVA","JSP","MYSQL", "SERVLET", "HTML", "CSS", "JAVASCRIPT"],
       "source": "https://github.com/itsmecaliber/Top-Elites"
     },
