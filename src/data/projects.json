@@ -1,7 +1,7 @@
 [
      {
       "title": "Scod",
-      "imageSrc": "projects/Scod.png",
+      "imageSrc": "projects/scod.png",
       "description": "A Social Media Cum Job Portal Built For Gamers.",
       "skills": ["JAVA","SpringBoot","MYSQL", "React", "ShadcnUI", "Tailwind CSS", "Deployment-Vercel & Render","Redux"],
       "source": "https://github.com/itsmecaliber/Top-Elites"
