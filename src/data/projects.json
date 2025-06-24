@@ -3,7 +3,7 @@
       "title": "Scod",
       "imageSrc": "projects/scod.png",
       "description": "A Social Media Cum Job Portal Built For Gamers.",
-      "skills": ["JAVA","SpringBoot","MYSQL", "React", "ShadcnUI", "Tailwind CSS", "Deployment-Vercel & Render","Redux"],
+      "skills": ["JAVA","SpringBoot","MYSQL", "React", "Tailwind CSS","Redux"],
       "source": "https://github.com/itsmecaliber/Top-Elites"
     },
     {
